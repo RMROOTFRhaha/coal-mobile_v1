@@ -18,8 +18,9 @@ export default function Index() {
       <Link href="/deleteNote" style={styles.button}>Delete A Note</Link>
 
       <Link href="/testFetch" style={styles.button}>Test the fetch API</Link>
+      <Link href="/testWebSocket" style={styles.button}>Test Redis & WebSockets</Link>
 
-      
+      <Link href="/textEditor" style={styles.button}>Test Text Editor</Link>
 
     </View>
   );

@@ -11,6 +11,8 @@ export default function RootLayout() {
       <Stack.Screen name="openedNote" options={{title: 'Note Edit In Progress'}} />
       <Stack.Screen name="deleteNote" options={{title: 'Note Deletion In Progress'}} />
       <Stack.Screen name="testFetch" options={{title: 'Test Fetch API'}} />
+      <Stack.Screen name="testWebSocket" options={{title: 'Test Redis & Web Sockets'}} />
+      <Stack.Screen name="textEditor" options={{title: 'Test Text Editor'}} />
     </Stack>
     );
 }
